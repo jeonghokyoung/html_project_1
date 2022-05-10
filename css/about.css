@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration-line: none;
+}
+
+#wrap{
+    width: 1600px;
+    margin: 0 auto;
+    /*background-color:;*/
+    
+}
+span{
+    color: #ddd;
+    font-weight: lighter;
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: #E7FAF8;
+    /*border-bottom: 1px solid #dddddd;*/
+}
+
+.headerLogo_img{
+    width: 400px;
+    float: left;
+    height: 100px;
+font-family: 'Nanum Pen Script', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: -40px;
+}
+
+
+.headerMenu{
+    width: 1200px;
+    float: left;
+    height: 150px;
+    
+}
+
+.headerMenuTop{
+    width: 100%;
+    /*background-color: #E6F5FF;*/
+    height: 100px;
+    float: left;
+    position: relative;
+    
+}
+
+.headerMenuTopList{
+    width: 1000px;    
+    position: absolute;
+    right: 5px;
+    bottom:0px;
+    
+}
+.headerMenuTopList>li{
+    display: block;
+    float: left;
+    height: 50px;
+    padding: 0px 25px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 50px;
+    color:dimgray;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+.headerMenuTopList>li:hover{
+    color:dimgray;
+    font-size: 2rem;
+    
+}
+
+
+.headerMenuBottom{
+    width: 100%;
+    /*background-color: deeppink;*/
+    height: 50px;
+    float: left;
+    position: relative;
+    /*margin: 0 auto;*/
+}
+
+.headerMenuBottomList{
+    width: 900px;
+    height: 40px;
+    position: absolute;
+    left: 895px;
+    top:-15px;
+    
+}
+
+.headerMenuBottomList>li{
+    float: left;
+    display: block;
+    /*background-color: brown;*/
+    padding: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #9C9C9C;
+}
+
+.contents{
+    width: 100%;
+    height: 800px;
+}
+.contents>div{
+    float: left;  
+}
+.contentsImg{
+    width: 650px;
+    height: 800px;
+    position: relative;
+    
+}
+.contentsImg_box{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+    border: 5px dashed skyblue;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+.contentsImg_box img{
+ width: 450px;
+ float:right;    
+     
+}
+.contentsAbout{
+    width: 950px;
+    height: 800px;
+}
+.contentsAbout_box{
+    width: 790px;
+    height: 500px;
+    background-color: #e7faf8;
+    margin-top: 120px;
+    border-radius: 30px;
+    padding: 17px;
+    border: 7px dashed skyblue;
+    border-collapse: collapse;
+}
+.contentsAbout_box h1{
+   
+   font-family: 'Nanum Pen Script', cursive; 
+   font-size: 70px;
+   color: gray;
+}
+.contentsAbout_boxText{
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.contentsAbout_boxText li{
+    list-style:disc;
+    font-size: 40px;
+    height: 110px;
+    font-family: 'Nanum Pen Script', cursive;
+    padding-left: -20px;
+    margin-left: 20px;
+    color: gray;
+}
+.contentsAbout_boxText span{
+    color:#4c4f4d;
+    font-weight: bold;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+}
+.footer_text{
+    width:100%px;
+    height: 150px;
+    background-color: darkgray;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.footer_text address{
+    padding: 30px 0px 0px 0px;
+}

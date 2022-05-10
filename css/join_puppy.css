@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration-line: none;
+}
+
+li{
+    list-style: none;
+}
+
+
+#wrap{
+     width: 800px;
+    border: 1px solid gray;
+    height: 700px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    overflow: hidden;
+    
+}
+
+.header{
+    width: 100%;
+    height: 250px;
+    background-color: #e7faf8;
+    text-align: center;
+    
+}
+
+.header img{
+    margin-top: 20px;
+    
+}
+
+.header h3{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.section{
+    width: 800px;
+    height: 650px;
+}
+
+.sectionRegisterName{
+    float: left;
+    width: 200px;
+    height: 350px;
+    margin: 50px 0px 0px 50px;
+    text-align: center;
+    
+    
+}
+
+.sectionRegisterName li{
+    margin-bottom: 31px;
+}
+
+.sectionRegister{
+    float: left;
+    width: 500px;
+    height: 450px;
+    margin: 50px 50px 50px 0px;
+    
+}
+
+.sectionRegister li{
+    margin-bottom: 30px;
+}
+
+.sectionRegisterName h3{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 22px;
+}
+
+.sectionRegister h3{
+    float: left;
+    font-size: 20px;
+    margin-left: 30px;
+}    
+
+
+.BoxUnder{
+    width: 300px;
+    border: 0px;
+    height: 30px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    
+}
+
+
+.sectionRegister li{
+    text-align: center;
+    float: left;
+    height: 20px;
+    margin-bottom: 35px;
+}
+
+.sectionButton{
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+    height: 100px;
+    background-color: #fff;
+    margin-top: -250px;
+}
+
+.sectionButtonNext{
+    width: 100px;
+    height: 100px;
+    border: 0px;
+    background-color: #fff;
+    
+}
+
+.sectionButton img{
+    width: 80px;
+    height: 80px;
+}

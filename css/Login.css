@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration-line: none;
+}
+
+
+#wrap{
+    width: 800px;
+    margin: 0 auto;
+    
+}
+
+.header{
+    height: 200px;
+}
+
+.section{
+    width: 100%;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.sectionTop{
+    
+    width: 100%;
+    height: 200px;
+    background-color: #e7faf8;
+    
+}
+
+.sectionTopLogo{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+}
+
+.sectionTopLogo h3{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.sectionTopLogo img{
+    margin-top: 30px;
+    margin-bottom: -20px
+}
+
+.sectionBottom{
+    width: 100%;
+    height: 300px;
+    
+}
+
+.sectionBottomTop{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    
+}
+
+.sectionBox{
+    position: absolute;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 20px;
+    top: 0;
+    left: 300px;
+    
+}
+
+.sectionBox h3{
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sectionBox>li{
+    float: left;
+    width: 200px;
+    padding: 10px;
+}
+
+.sectionBottomBottom{
+    width: 100%;
+}
+
+.Login img{
+    width: 50px;
+}
+
+.Login{
+    padding: px;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sectionBottomBottom{
+    width: 100%;
+    height: 100px;
+}
